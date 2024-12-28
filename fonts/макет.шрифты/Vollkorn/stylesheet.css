@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('Vollkorn-SemiBoldItalic.eot');
+    src: local('Vollkorn SemiBold Italic'), local('Vollkorn-SemiBoldItalic'),
+        url('Vollkorn-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Vollkorn-SemiBoldItalic.woff2') format('woff2'),
+        url('Vollkorn-SemiBoldItalic.woff') format('woff'),
+        url('Vollkorn-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('Vollkorn-Italic.eot');
+    src: local('Vollkorn Italic'), local('Vollkorn-Italic'),
+        url('Vollkorn-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Vollkorn-Italic.woff2') format('woff2'),
+        url('Vollkorn-Italic.woff') format('woff'),
+        url('Vollkorn-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('Vollkorn-BlackItalic.eot');
+    src: local('Vollkorn Black Italic'), local('Vollkorn-BlackItalic'),
+        url('Vollkorn-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Vollkorn-BlackItalic.woff2') format('woff2'),
+        url('Vollkorn-BlackItalic.woff') format('woff'),
+        url('Vollkorn-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('Vollkorn-BoldItalic.eot');
+    src: local('Vollkorn Bold Italic'), local('Vollkorn-BoldItalic'),
+        url('Vollkorn-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Vollkorn-BoldItalic.woff2') format('woff2'),
+        url('Vollkorn-BoldItalic.woff') format('woff'),
+        url('Vollkorn-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('Vollkorn-SemiBold.eot');
+    src: local('Vollkorn SemiBold'), local('Vollkorn-SemiBold'),
+        url('Vollkorn-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Vollkorn-SemiBold.woff2') format('woff2'),
+        url('Vollkorn-SemiBold.woff') format('woff'),
+        url('Vollkorn-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('Vollkorn-Regular.eot');
+    src: local('Vollkorn Regular'), local('Vollkorn-Regular'),
+        url('Vollkorn-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Vollkorn-Regular.woff2') format('woff2'),
+        url('Vollkorn-Regular.woff') format('woff'),
+        url('Vollkorn-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('Vollkorn-Black.eot');
+    src: local('Vollkorn Black'), local('Vollkorn-Black'),
+        url('Vollkorn-Black.eot?#iefix') format('embedded-opentype'),
+        url('Vollkorn-Black.woff2') format('woff2'),
+        url('Vollkorn-Black.woff') format('woff'),
+        url('Vollkorn-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('Vollkorn-Bold.eot');
+    src: local('Vollkorn Bold'), local('Vollkorn-Bold'),
+        url('Vollkorn-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Vollkorn-Bold.woff2') format('woff2'),
+        url('Vollkorn-Bold.woff') format('woff'),
+        url('Vollkorn-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
