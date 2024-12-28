@@ -1,0 +1,59 @@
+/* Подключение шрифтов */
+@import "fonts.css";
+/* Подключение основных стилей */
+@import "base.css";
+/* Подключение стилей относящихся к header */
+@import "header.css";
+/* Подключение стилей относящихся к footer */
+@import "footer.css";
+/* Подключение стилей относящихся к main */
+@import "main.css";
+
+body {
+    font-family: 'Vollkorn', sans-serif ; /* Используем Vollkorn как основной шрифт */
+}
+
+// Стили для основной секции
+.main {
+    display: flex; // Используем Flexbox для размещения секций рядом
+    justify-content: space-between; // Распределяем пространство между секциями
+    padding: 20px;
+
+    .dish-section, .description-section {
+        flex: 1; // Каждая секция занимает равное пространство
+        margin: 10px; // Отступы между секциями
+        background-color: #ecf0f1; // Цвет фона секций
+        border-radius: 5px; // Закругленные углы
+        padding: 15px; // Внутренние отступы
+
+        h2 {
+            color: $primary-color; // Цвет заголовка
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #34495e; // Цвет текста
+            margin-bottom: 15px;
+        }
+
+        .menu-button {
+            background-color: $primary-color; // Цвет кнопки
+            color: white; // Цвет текста кнопки
+            border: none; // Убираем рамку
+            border-radius: 5px; // Закругленные углы кнопки
+            padding: 10px 15px; // Внутренние отступы кнопки
+            cursor: pointer; // Указатель при наведении
+
+            &:hover {
+                background-color: darken($primary-color, 10%); // Темнее при наведении
+            }
+        }
+    }
+
+    .dish-image {
+        width: 100%; // Изображение занимает всю ширину секции
+        border-radius: 5px; // Закругленные углы изображения
+    }
+}
