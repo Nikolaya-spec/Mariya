@@ -1,24 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Книжная Кофейня</title>
+    <link href="fonts/макет.шрифты/Vollkorn/Vollkorn-BlackItalic.ttf" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
 </head>
 <body>
+    <!-- Заголовок страницы включает логотип и основные функции -->
     <header>
+        <div class="header-content">
+            <div class="logo-greeting">
+                <img src="images/макет.картинки/Logotype-2.jpg" alt="Логотип кофейни" width="50" height="50" class="logo">
+                <h1 id="greeting">Добро пожаловать в нашу книжную кофейню!</h1>
+            </div>
+            <nav class="navigation">
+                <button class="nav-button">Вход</button>
+                <button class="nav-button">Регистрация</button>
+                <button class="nav-button">Участие в бонусной программе</button>
+                <button class="nav-button">Корзина</button>
+            </nav>
+            <nav class="header-contact">
+                <a href="#mailto:example@example.com">Написать нам</a>
+                <a href="#tel:+1234567890">Позвонить</a>
+            </nav>
+        </div>
 
     </header>
-    <main>
-        <h1>Заголовок текста 1</h1>
-        <h2>Заголовок текста 2</h2>
-        <h3>Заголовок текста 3</h3>
-        <p>Текст 1 абзац 1</p>
-        <p>Текст 1 абзац 2</p>
-        
+
+    <!-- Основной контент -->
+    <main>   
+        <!-- Здесь находятся 2 взаимосвязанные секции-->     
+        <div class="dish-image-dish-description">
+            <!-- Находится СЛЕВА - блюдо недели и переход на меню-->
+            <div class="dish-section">
+                <img src="images/макет.картинки/Menu-New-Year-coffee.jpg" alt="Блюдо недели" width="400" height="600" class="dish-image">
+                <nav>
+                    <a href="#about.menu.html">Узнать больше</a>
+                </nav>
+            </div>
+            <!-- Находится СПРАВА - описание блюда слева и переход на меню -->
+            <section class="description-section">
+                <h2>Капучино "Уют в зимний вечер"</h2>
+                <p>В холодное зимнее утро, когда мороз хрустит под ногами, капучино становится оазисом тепла и уюта. Его нежная, золотистая пена при первом глотке словно обнимает вас, насыщая ароматом свежемолотого кофе, который успел выстояться в держателе для чашек. Сверху, легкая порция сливок, взбитых до идеальной консистенции, утоляет жажду сладости и дарит ощущение легкости.
+
+                    Но что там, на горизонте? Грецкие орехи, тщательно порубленные, словно язычки пламени, танцуют на поверхности капучино, придавая каждому глотку теплую ноту орехового вкуса. Их хрустящий характер контрастирует с бархатностью сливок, создавая гармонию текстур и впечатлений.
+                    
+                    И, наконец, капля магии — сочная малина. Яркие ягодки переливаются на фоне светлой пены, добавляя свой остро-сладкий акцент. Каждая ягода словно маленький праздник на языке, напоминая о лете даже в самые холодные дни. Этот капучино — не просто напиток, это зимний ритуал, который наполняет сердце радостью и согревает душу, превращая каждое утро в маленькое чудо.</p>
+                <nav>
+                    <a href="#about.menu.html">Перейти в МЕНЮ</a>
+                </nav>
+            </section>
+        </div>
+        <!-- Здесь находятся 2 НЕвзаимосвязанные секции -->
+        <div class="gallery-charity">
+            <!-- СЛЕВА находится Галерея, которую можно развернуть и листать -->
+            <section class="gallery">
+                <h2>Галерея</h2>
+                    <div class="lightbox" id="lightbox">
+                        <span class="close" onclick="closeGallery()">&times;</span>
+                        <img src="images/макет.картинки/Gallery-delicious-warm-winter-drink.jpg" alt="" width="300" height="400" id="lightbox-img-6">
+                        <img src="images/макет.картинки/Gallery-outside-view.jpg" alt="" width="300" height="400" id="lightbox-img-5">
+                        <img src="images/макет.картинки/Gallery-books.jpg" alt="" width="300" height="400" id="lightbox-img-4">
+                        <img src="images/макет.картинки/Gallery-coffee-book-rain-windowsill.jpg" alt="" width="300" height="400" id="lightbox-img-3">
+                        <img src="images/макет.картинки/Gallery-cup-coffee-cookie-put-windowsill.jpg" alt="" width="300" height="400" id="lightbox-img-2">
+                        <img src="images/макет.картинки/Gallery-girl-coffee-aesthetick.jpg" alt="" width="300" height="400" id="lightbox-img-1">
+                        <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+                        <a class="next" onclick="changeImage(1)">&#10095;</a>
+                    </div>
+            </section>
+            <!-- СПРАВА находится раздел о Благотворительности -->
+            <section class="charity">
+                <h2>Участие в благотворительности</h2>
+                <p>Наша книжная кофейня активно участвует в благотворительной программе, направленной на поддержку детей из неблагополучных семей. Мы собираем средства и книги для тех, кто в этом нуждается. Приглашаем всех присоединиться в группу добрых дел.</p>
+                <nav>
+                    <a href="#https://www.example.com" target="_blank" rel="noopener noreferrer">Несем добро вместе!</a>
+                </nav>
+            </section>
+        </div>
+        <!-- Здесь находится раздел Отзывов -->
+        <section class="reviews">
+            <!-- Здесь последние отзывы от пользователей с возможностью их развернуть -->
+            <h2>Отзывы</h2>
+                <div class="review" id="review1">
+                    <p class="review-text">Это замечательное место для чтения и отдыха! <span class="more" onclick="toggleReview('review1')">[развернуть]</span></p>
+                    <p class="full-review" style="display: none;">Я всегда нахожу здесь интересные книги, а кофе просто отличный!</p>
+                </div>
+                <div class="review" id="review2">
+                    <p class="review-text">Чудесная атмосфера и приветливый персонал. <span class="more" onclick="toggleReview('review2')">[развернуть]</span></p>
+                    <p class="full-review" style="display: none;">Каждый раз, когда я прихожу сюда, чувствую себя как дома. Обязательно вернусь снова!</p>
+                </div>
+            <!-- Здесь возможность оставить отзыв самостоятельно -->
+            <h3>Оставить свой отзыв</h3>
+                <form id="review-form" action="/submit-review" onsubmit="submitReview(event)">
+                    <label for="nickname">Ваш ник:</label>
+                    <input type="text" id="nickname" placeholder="Ваш ник" required>
+                    <label for="review-input">Ваш отзыв:</label>
+                    <textarea id="review-input" placeholder="Ваш отзыв" required></textarea>
+                    <button type="submit">Отправить отзыв</button>
+                </form>
+        </section>
+        <!-- Кнопка, чтобы пролистнуть наверх -->
+        <nav>
+            <a href="#greeting">Пролистать наверх</a>
+        </nav>
+
     </main>
+
+    <!-- Подвал страницы -->
     <footer>
+        <!-- В подвале страницы находятся карта, контакты книжной кофейни и раздел Безопасность -->
+        <div class="footer-container">
+            <!-- Карта находится СЛЕВА -->
+            <div class="footer-map">
+                <h3>Наш адрес</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509115!2d144.95373531531786!3d-37.81627997975168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11e6fb%3A0x5045675218ceed0!2sYour%20Cafe%20Name!5e0!3m2!1sen!2sru!4v1616161616161!5m2!1sen!2sru" 
+                        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <!-- Адрес, телефон и почта находятся ПОСЕРЕДИНЕ -->
+            <div class="footer-contact">
+                <h3>Контакты</h3>
+                <p>Адрес: ул. Примерная, 123, г. Москва</p>
+                <p>Телефон: <a href="#tel:+1234567890">+1234567890</a></p>
+                <p>Email: <a href="#mailto:info@yourcafe.com">info@yourcafe.com</a></p>
+            </div>
+            <!-- Полезные ссылки находятся СЛЕВА -->
+            <nav class="footer-links">
+                <h3>Полезные ссылки</h3>
+                <ul>
+                    <li><a href="#/terms-of-use.html">Условия использования</a></li>
+                    <li><a href="#/privacy-policy.html">Политика конфиденциальности</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p>&copy; 2024 Читай!</p>
 
     </footer>
+    <!-- Для Джава Скрипт -->
+    <script src="script.js"></script>
 </body>
 </html>
