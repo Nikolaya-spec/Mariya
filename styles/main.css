@@ -1,171 +1,25 @@
-// Стили для основной секции
-.main {
-    display: flex; // Используем Flexbox для размещения секций рядом
-    justify-content: space-between; // Распределяем пространство между секциями
-    padding: 20px;
+div p {
+    text-align: justify;
+}
 
-    .dish-section, .description-section {
-        flex: 1; // Каждая секция занимает равное пространство
-        margin: 10px; // Отступы между секциями
-        background-color: #ecf0f1; // Цвет фона секций
-        border-radius: 5px; // Закругленные углы
-        padding: 15px; // Внутренние отступы
-
-        h2 {
-            color: $primary-color; // Цвет заголовка
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-
-        p {
-            line-height: 1.6;
-            color: #34495e; // Цвет текста
-            margin-bottom: 15px;
-        }
-
-        .menu-button {
-            background-color: $primary-color; // Цвет кнопки
-            color: white; // Цвет текста кнопки
-            border: none; // Убираем рамку
-            border-radius: 5px; // Закругленные углы кнопки
-            padding: 10px 15px; // Внутренние отступы кнопки
-            cursor: pointer; // Указатель при наведении
-
-            &:hover {
-                background-color: darken($primary-color, 10%); // Темнее при наведении
-            }
-        }
-    }
-
-    .dish-image {
-        width: 100%; // Изображение занимает всю ширину секции
-        border-radius: 5px; // Закругленные углы изображения
-    }
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-    
-    header {
-        background-color: #f5f5f5;
-        padding: 20px;
-        text-align: center;
-    }
-    
-    .gallery-charity {
-        display: flex;
-        justify-content: space-between;
-        padding: 20px;
-    }
-    
-    .gallery {
-        flex: 1;
-        margin-right: 20px;
-    }
-    
-    .gallery-images {
-        display: flex;
-    }
-    
-    .thumbnail {
-        width: 150px;
-        height: auto;
-        margin-right: 10px;
-        cursor: pointer;
-    }
-    
-    .lightbox {
-        display: none;
-        position: fixed;
-        z-index: 1000;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.8);
-    }
-    
-    .lightbox-content {
-        margin: auto;
-        display: block;
-        max-width: 80%;
-        max-height: 80%;
-    }
-    
-    .close {
-        position: absolute;
-        top: 20px;
-        right: 30px;
-        color: white;
-        font-size: 40px;
-        cursor: pointer;
-    }
-    
-    .prev, .next {
-        position: absolute;
-        top: 50%;
-        color: white;
-        font-size: 40px;
-        cursor: pointer;
-    }
-    
-    .prev {
-        left: 10px;
-    }
-    
-    .next {
-        right: 10px;
-    }
-    
-    .charity {
-        flex: 1;
-    }
-    
-    .btn {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #28a745;
-        color: white;
-        text-decoration: none;
-    }
-    .reviews {
-        margin-top: 20px;
-    }
-    
-    .review {
-        margin-bottom: 15px;
-    }
-    
-    .review-text {
-        display: inline;
-    }
-    
-    .full-review {
-        margin-top: 5px;
-    }
-    
-    .more {
-        color: blue;
-        cursor: pointer;
-    }
-    
-    form {
-        margin-top: 20px;
-    }
-    
-    input[type="text"],
-    textarea {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-    
-    button {
-        padding: 10px 20px;
-        background-color: #007bff;
-        color: white;
-        border: none;
-        cursor: pointer;
-    }
+.dish__image {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(157, 103, 76);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.dish__description {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(157, 103, 76);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+.dish{
+    display: block;
+    padding: 10px;
+    margin: 5px;
 }
