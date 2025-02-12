@@ -1,7 +1,9 @@
 div p {
     text-align: justify;
 }
-
+.gallery-charity__gallery h2 {
+    color: black;
+}
 .dish__image {
     display: block;
     padding: 10px;
