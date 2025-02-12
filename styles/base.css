@@ -30,3 +30,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+.container{
+    color: rgb(255, 255, 255); /* Цвет ссылки при наведении */
+     text-decoration: none; /* Подчеркивание при наведении */
+}
