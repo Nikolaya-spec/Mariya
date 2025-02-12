@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Frank Ruhl Libre';
+    src: url('FrankRuhlLibre-Light.eot');
+    src: local('Frank Ruhl Libre Light'), local('FrankRuhlLibre-Light'),
+        url('FrankRuhlLibre-Light.eot?#iefix') format('embedded-opentype'),
+        url('FrankRuhlLibre-Light.woff2') format('woff2'),
+        url('FrankRuhlLibre-Light.woff') format('woff'),
+        url('FrankRuhlLibre-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Frank Ruhl Libre';
+    src: url('FrankRuhlLibre-Bold.eot');
+    src: local('Frank Ruhl Libre Bold'), local('FrankRuhlLibre-Bold'),
+        url('FrankRuhlLibre-Bold.eot?#iefix') format('embedded-opentype'),
+        url('FrankRuhlLibre-Bold.woff2') format('woff2'),
+        url('FrankRuhlLibre-Bold.woff') format('woff'),
+        url('FrankRuhlLibre-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Frank Ruhl Libre';
+    src: url('FrankRuhlLibre-Medium.eot');
+    src: local('Frank Ruhl Libre Medium'), local('FrankRuhlLibre-Medium'),
+        url('FrankRuhlLibre-Medium.eot?#iefix') format('embedded-opentype'),
+        url('FrankRuhlLibre-Medium.woff2') format('woff2'),
+        url('FrankRuhlLibre-Medium.woff') format('woff'),
+        url('FrankRuhlLibre-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Frank Ruhl Libre';
+    src: url('FrankRuhlLibre-Black.eot');
+    src: local('Frank Ruhl Libre Black'), local('FrankRuhlLibre-Black'),
+        url('FrankRuhlLibre-Black.eot?#iefix') format('embedded-opentype'),
+        url('FrankRuhlLibre-Black.woff2') format('woff2'),
+        url('FrankRuhlLibre-Black.woff') format('woff'),
+        url('FrankRuhlLibre-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Frank Ruhl Libre';
+    src: url('FrankRuhlLibre-Regular.eot');
+    src: local('Frank Ruhl Libre Regular'), local('FrankRuhlLibre-Regular'),
+        url('FrankRuhlLibre-Regular.eot?#iefix') format('embedded-opentype'),
+        url('FrankRuhlLibre-Regular.woff2') format('woff2'),
+        url('FrankRuhlLibre-Regular.woff') format('woff'),
+        url('FrankRuhlLibre-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
