@@ -2,15 +2,11 @@
     background-color: rgb(79, 44, 4);
     color: rgb(255, 255, 255); 
 }
-a:hover {
-    color: rgb(255, 255, 255); /* Цвет ссылки при наведении */
-     text-decoration: underline; /* Подчеркивание при наведении */
+.header__logo-motto {
+    font-size: 30;
 }
-#greeting {
-    font-size: 60px;
-}
-#motto {
-    font-size: 35px;
+.header__motto {
+    font-size: 20px;
     font-style: italic;
 }
 .nuv-button {
@@ -29,12 +25,12 @@ a:hover {
      color: rgb(0, 0, 0);
      text-decoration: none;
 }
-.header__logo-greeting{
+.header__logo-motto{
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.header__logo-greeting{
+.header__logo-motto{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
