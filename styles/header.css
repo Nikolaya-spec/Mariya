@@ -1,0 +1,56 @@
+.header {
+    background-color: rgb(79, 44, 4);
+    color: rgb(255, 255, 255); 
+}
+a:hover {
+    color: rgb(255, 255, 255); /* Цвет ссылки при наведении */
+     text-decoration: underline; /* Подчеркивание при наведении */
+}
+#greeting {
+    font-size: 60px;
+}
+#motto {
+    font-size: 35px;
+    font-style: italic;
+}
+.nuv-button {
+    display: inline-block;
+     padding: 10px;
+     margin: 5px;
+     background-color: #ffddb6;
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+}
+.nav-button {
+    display: inline-block;
+     padding: 10px;
+     margin: 5px;
+     background-color: #ffddb6;
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+}
+.header__logo-greeting{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header__logo-greeting{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.header__title{
+    margin: 0;
+}   
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+   .header__contacts{
+    width: 100%;
+    flex-shrink: 0;
+}
+   

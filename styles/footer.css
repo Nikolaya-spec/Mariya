@@ -1,0 +1,12 @@
+.footer {
+    background-color: rgb(79, 44, 4);
+    color: rgb(255, 255, 255); 
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

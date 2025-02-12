@@ -1,0 +1,60 @@
+div p {
+    text-align: justify;
+}
+
+.dish__image {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(157, 103, 76);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.dish__description {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(157, 103, 76);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+.dish{
+    display: block;
+    padding: 10px;
+    margin: 5px;
+}
+.dish{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.dish__description {
+    width: 1000px;  /* Устанавливает ширину блока */
+    height: 600px; /* Устанавливает высоту блока */
+}
+
+.dish__description {
+    font-family: 'Vollkorn', serif;
+    font-size: 22px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.reviews {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(157, 103, 76);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.gallery-charity__charity {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(157, 103, 76);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
