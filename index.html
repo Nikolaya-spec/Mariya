@@ -26,9 +26,9 @@
             <button class="nav-button button">Участие в бонусной программе</button>
             <button class="nav-button button">Корзина</button>
         </nav>
-        <nav class="header__contacts">
-            <a class="contacts__write-1" href="#mailto:example@example.com">Написать нам</a>
-            <a class="contacts__call-1" href="#tel:+1234567890">Позвонить</a> 
+        <nav class="header__contacts contacts">
+            <a class="contacts__write" href="#mailto:example@example.com">Написать нам</a>
+            <a class="contacts__call" href="#tel:+1234567890">Позвонить</a> 
         </nav>
 
 
@@ -63,7 +63,7 @@
         <!-- Здесь находятся 2 НЕвзаимосвязанные секции -->
         <section class="gallery-charity">
             <!-- СЛЕВА находится Галерея, которую можно развернуть и листать -->
-            <div class="gallery-charity__gallery">
+            <div class="gallery">
                 <h2 class="gallery__title">Галерея</h2>  
                 <div class="images" id="images">    
                     <span class="close" onclick="closeGallery()">&times;</span>
@@ -82,7 +82,7 @@
                 </div>
             </div>
             <!-- СПРАВА находится раздел о Благотворительности -->
-            <div class="gallery-charity__charity">
+            <div class="charity">
                 <h2 class="charity__title">Участие в благотворительности</h2>
                 <p class="charity__description">Наша книжная кофейня активно участвует в благотворительной программе, направленной на поддержку детей
                     из неблагополучных семей. Мы собираем средства и книги для тех, кто в этом нуждается. Приглашаем
@@ -109,13 +109,13 @@
                     Обязательно вернусь снова!</p>
             </div>
             <!-- Здесь возможность оставить отзыв самостоятельно -->
-            <h3 class="reviews__send">Оставить свой отзыв</h3>
-            <form id="review-form" action="/submit-review" onsubmit="submitReview(event)">    
-                <label class="reveiew-form__nickname" for="nickname">Ваш ник:</label>
+            <form class="feedback" id="review-form" action="/submit-review" onsubmit="submitReview(event)">    
+                <h3 class="feedback__title">Оставить свой отзыв</h3>
+                <label class="feedback__nickname" for="nickname">Ваш ник:</label>
                 <input type="text" id="nickname" placeholder="Ваш ник" required>
-                <label class="reveiew-form__input" for="review-input">Ваш отзыв:</label>
-                <textarea id="review-input" placeholder="Ваш отзыв" required></textarea>
-                <button class="reveiew-form__submit" type="submit">Отправить отзыв</button>
+                <label class="feedback__input" for="feedback-input">Ваш отзыв:</label>
+                <textarea id="feedback-input" placeholder="Ваш отзыв" required></textarea>
+                <button class="feedback__submit" type="submit">Отправить отзыв</button>
             </form>
         </section>
         <!-- Кнопка, чтобы пролистнуть наверх -->      
@@ -129,24 +129,24 @@
         <!-- В подвале страницы находятся карта, контакты книжной кофейни и раздел Безопасность -->
         <!-- Карта находится СЛЕВА -->
         <div class="footer__map">
-            <h3 class="map__title">Наш адрес</h3>
+            <h3 class="footer__map-title">Наш адрес</h3>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509115!2d144.95373531531786!3d-37.81627997975168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11e6fb%3A0x5045675218ceed0!2sYour%20Cafe%20Name!5e0!3m2!1sen!2sru!4v1616161616161!5m2!1sen!2sru"
                 width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
         <!-- Адрес, телефон и почта находятся ПОСЕРЕДИНЕ -->
-        <div class="footer__contacts">
+        <div class="footer__contacts contacts">
             <h3 class="contacts__title">Контакты</h3>
             <p class="contacts__adress">Адрес: ул. Примерная, 123, г. Москва</p>
-            <p class="contacts__number">Телефон: <a class="contacts__call-2" href ="#tel:+1234567890">+1234567890</a></p>
-            <p class="contacts__mail">Email: <a class="contacts__write-2" href="#mailto:info@yourcafe.com">info@yourcafe.com</a></p>
+            <p class="contacts__number">Телефон: <a class="contacts__call" href ="#tel:+1234567890">+1234567890</a></p>
+            <p class="contacts__mail">Email: <a class="contacts__write" href="#mailto:info@yourcafe.com">info@yourcafe.com</a></p>
         </div>
         <!-- Полезные ссылки находятся СЛЕВА -->
-        <nav class="footer__links">
-            <h3 class="links__title">Полезные ссылки</h3>
+        <nav class="footer__politics politics">
+            <h3 class="politics__title">Полезные ссылки</h3>
             <ul>
-                <li><a class="links__using" href="#/terms-of-use.html">Условия использования</a></li>
-                <li><a class="links__privacy" href="#/privacy-policy.html">Политика конфиденциальности</a></li>     
+                <li><a class="politics__using" href="#/terms-of-use.html">Условия использования</a></li>
+                <li><a class="politics__privacy" href="#/privacy-policy.html">Политика конфиденциальности</a></li>     
         </nav>
         <p class="completed-by">&copy; Выполнила Андрианова Мария</p>
     </footer>
