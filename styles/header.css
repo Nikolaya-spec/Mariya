@@ -1,0 +1,79 @@
+.header {
+    background-color: rgb(79, 44, 4);
+    color: rgb(255, 255, 255); 
+}
+.header__logo-motto {
+    font-size: 30;
+}
+.header__motto {
+    font-size: 20px;
+    font-style: italic;
+}
+.nav-button {
+    display: inline-block;
+     padding: 10px;
+     margin: 5px;
+     background-color: hsl(32, 100%, 86%);
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+     /*тут ваш код кнопки*/
+     transition: background-color 0.3s,
+     color 0.3s;
+}
+.nav-button:hover{
+    background: rgb(157, 103, 76);
+}
+.header__contacts .contacts__write{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    padding: 5px;
+}
+.header__contacts .contacts__write{
+    opacity: 0.5;
+}
+.header__contacts .contacts__call{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    padding: 5px;
+}
+.header__contacts .contacts__call{
+    opacity: 0.5;
+}
+.header__contacts{
+    display: flex;
+    align-items: right;
+    gap: 10px;
+}
+.header__logo-motto{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header__logo-motto{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.header__title{
+    margin: 0;
+}   
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header__contacts{
+    width: 100%;
+    flex-shrink: 0;
+}
+.dish__description {
+    transition: transform 0.5s ease;
+}
+    
+   
