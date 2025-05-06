@@ -219,7 +219,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    /* 6. Формирование массива из текстов (описаний изображений) в свайпере (модальном окне) Галереи */
+    /* 6. Формирование массива из текстов (описаний изображений) для свайпера в модальном окне Галереи */
     //Объявляем переменную imagesContainer и сохраняем в нее элементы swiper-wrapper
     const imagesContainer = document.querySelector(".swiper-wrapper");
 
