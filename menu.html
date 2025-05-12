@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню</title>
+    <link href="fonts/Vollkorn/Vollkorn-BlackItalic.ttf" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- Заголовок страницы включает логотип и основные функции -->
+    <header class="header container">
+        <a class="header__logo-motto" href="index.html">
+            <img class="header__logo" src="images/Logotype-2.png" alt="Логотип кофейни" width="50" height="50">
+            <h1 class="header__title" id="header__title">Кофе и Книга</h1>
+        </a>
+        <div class="header__motto">
+            <h2 id="motto">Место, где оживают мечты</h2>
+        </div>
+        <nav class="header__navigation">
+            <ul class="header__list">
+                <button id="loginButton" type="button" class="nav-button button">Вход</button>
+                <button id="registerButton" type="button" class="nav-button button">Регистрация</button>
+                <!-- <button type="button" class="nav-button button"><a class="header__link" href="#">Участие в бонусной программе</a></button>
+            <button type="button" class="nav-button button"><a class="header__link" href="#">Корзина</a></button> -->
+            </ul>
+        </nav>
+
+        <!-- ДЛЯ МОДАЛЬНОГО ОКНА -->
+        <!-- Overlay для блокировки главной страницы -->
+        <div id="modalOverlay" class="modal-overlay hidden"></div>
+        <!-- Модальное окно -->
+        <div id="authModal" class="modal hidden">
+            <div class="modal__content">
+                <button class="modal__close" id="closeModal" aria-label="Закрыть">&times;</button>
+                <h2>Авторизация</h2>
+                <!-- Форма авторизации -->
+                <form>
+                    <input type="text" placeholder="Логин" required>
+                    <input type="password" placeholder="Пароль" required>
+                    <button type="submit">Войти</button>
+                </form>
+            </div>
+        </div>
+        <!-- КОНТАКТЫ -->
+        <nav class="header__contacts contacts">
+            <a class="contacts__write" href="#mailto:example@example.com">Написать нам</a>
+            <a class="contacts__call" href="#tel:+1234567890">Позвонить</a>
+        </nav>
+
+    </header>
+
+    <!-- Основной контент -->
+    <main class="main container">
+        <!-- Здесь находится секция Меню-->
+        <section class="menu">
+            <h1 class="menu__title">МЕНЮ</h1>
+            <ul class="menu__list">
+                <!-- Здесь будет создаваться код с использованием JSON. -->
+            </ul>
+        </section>
+    </main>
+
+    <!-- Подвал страницы -->
+    <footer class="footer container">
+        <!-- В подвале страницы находятся карта, контакты книжной кофейни и раздел Безопасность -->
+        <!-- Карта находится СЛЕВА -->
+        <div class="footer__map">
+            <h3 class="footer__map-title">Наш адрес</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509115!2d144.95373531531786!3d-37.81627997975168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11e6fb%3A0x5045675218ceed0!2sYour%20Cafe%20Name!5e0!3m2!1sen!2sru!4v1616161616161!5m2!1sen!2sru"
+                width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <!-- Адрес, телефон и почта находятся ПОСЕРЕДИНЕ -->
+        <div class="footer__contacts contacts">
+            <h3 class="contacts__title">Контакты</h3>
+            <p class="contacts__adress">Адрес: ул. Примерная, 123, г. Москва</p>
+            <p class="contacts__number">Телефон: <a class="contacts__call" href="#tel:+1234567890">+1234567890</a></p>
+            <p class="contacts__mail">Email: <a class="contacts__write"
+                    href="#mailto:info@yourcafe.com">info@yourcafe.com</a></p>
+        </div>
+        <!-- Полезные ссылки находятся СЛЕВА -->
+        <nav class="footer__politics politics">
+            <h3 class="politics__title">Полезные ссылки</h3>
+            <ul>
+                <li><a class="politics__using" href="#/terms-of-use.html">Условия использования</a></li>
+                <li><a class="politics__privacy" href="#/privacy-policy.html">Политика конфиденциальности</a></li>
+        </nav>
+        <p class="completed-by">&copy; Выполнила Андрианова Мария</p>
+    </footer>
+
+    <!-- Подключение Джава Скрипт -->
+    <script src="scripts/scripts.js"></script>
+</body>
+
+</html>
