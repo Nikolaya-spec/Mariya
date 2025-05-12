@@ -1,0 +1,50 @@
+[
+    {
+        "imageUrl": [
+            "images/menu/Latte-tropical-1.jpg",
+            "images/menu/Latte-tropical-2.jpg"
+        ],
+        "imageAlt": "Латте Тропический",
+        "imageWidth": 500
+    },
+    {
+        "imageUrl": [
+            "images/menu/Matcha-latte-lavender-1.jpg",
+            "images/menu/Matcha-latte-lavender-2.jpg"
+        ],
+        "imageAlt": "Матча-латте Лавандовый",
+        "imageWidth": 500
+    },
+    {
+        "imageUrl": [
+            "images/menu/Raf-raspberry-1.jpg",
+            "images/menu/Raf-raspberry-2.jpg"
+        ],
+        "imageAlt": "Раф Малиновый",
+        "imageWidth": 500
+    },
+    {
+        "imageUrl": [
+            "images/menu/Oatmeal-berry-1.jpg",
+            "images/menu/Oatmeal-berry-2.jpg"
+        ],
+        "imageAlt": "Овсянка",
+        "imageWidth": 500
+    },
+    {
+        "imageUrl": [
+            "images/menu/Red-velvet-cake_1.jpg",
+            "images/menu/Red-velvet-cake_2.jpg"
+        ],
+        "imageAlt": "Торт Красный бархат",
+        "imageWidth": 500
+    },
+    {
+        "imageUrl": [
+            "images/menu/Waffles-ice-cream-1.jpg",
+            "images/menu/Waffles-ice-cream-2.jpg"
+        ],
+        "imageAlt": "Вафли с мороженным",
+        "imageWidth": 500
+    }
+]
